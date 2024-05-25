@@ -1,0 +1,22 @@
+/* SQL Queries for w3schools database project
+---------------------------------------------
+Author: Jakub Kaczmarczyk
+
+Date: 26-05-2024
+
+**DESCRIPTION:**
+
+This file contain You can find, a primary type of SQL queries which are using for managing and building a database.
+#SELECT #DISTINCT #WHERE #AND #OR #NOT #IS #NULL #TOP #LIMIT #FETCH FIRST #MIN #MAX #COUNT #AVG#SUM #LIKE #BETWEEN 
+#ALIAS #ORDER BY #INSERT INTO #UPDATE #DELETE FROM #HAVING #INNER JOIN #LEFT JOIN #RIGHT JOIN #UNION #COALESCE #CAST
+#CASE #CONCAT #ANY #ALL
+
+Example of usage #SUBQUERIES
+Using a #COMMENTARY
+
+**INSTRUNCTION**
+
+Import database from repository to your SQL environment and run queries for checkout the results
+
+*/
+
