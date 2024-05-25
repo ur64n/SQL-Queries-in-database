@@ -4,6 +4,11 @@ This repository contains a diffrent projects about a database in SQL. Main goals
 
 ##Projects file w3schools ->
 
+**INSTRUCTION**
+
+1. Copy file w3schools to your SQL usage tool
+2. Lets run queries from this file
+
 ###1. Sales data analysis
 
 **Description**
