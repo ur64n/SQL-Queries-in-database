@@ -1,1 +1,7 @@
-This file is about primary managing database in SQL. During creating my project i will update my readme file i promise 
+**DESCRIPTION**
+This repository contains a diffrent projects about a database in SQL. Main goals this repository are demonstrate my creating and managing database.
+
+##Projects file w3schools ->
+###1. Sales data analysis
+
+**Description**
