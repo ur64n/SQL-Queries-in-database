@@ -4,7 +4,7 @@ This repository contains my private project about a database in SQL.
 
 Main goals this repository are demonstrate my creating and managing abilities in database.
 
-I'm using this like a guide for junior SQL user.
+I'm using this like a guide and sharing for junior SQL user.
 
 ##Projects file w3schools
 
