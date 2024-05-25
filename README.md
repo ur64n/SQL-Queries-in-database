@@ -11,5 +11,4 @@ I'm using this like a guide for junior SQL user.
 **INSTRUCTION**
 
 1. Copy file w3schools to your SQL enveironment.
-2. Lets run queries from queries file from repositroy.
-3. Description with explaint of queries you can find here -> 'dodac link'
+2. Lets run queries from queries file which containing descriptions. Find in repositroy.
