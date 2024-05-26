@@ -6,7 +6,7 @@ Author: Jakub Kaczmarczyk
 
 Date: 26-05-2024
 
-**DESCRIPTION:**
+** DESCRIPTION: **
 
 This file contain, a primary type of SQL queries which are using for managing and building a databases.
 Below is the complete set of queries used in project:
@@ -17,7 +17,7 @@ Below is the complete set of queries used in project:
 Example of usage #SUBQUERIES
 Adding a #COMMENTARY
 
-**INSTRUNCTION**
+** INSTRUNCTION **
 
 Download and import database w3schools from repository to your SQL environment and run queries for checkout the results
 
@@ -25,4 +25,17 @@ Download and import database w3schools from repository to your SQL environment a
 
 **DEFINITION**
 
-INSERT INTO -> function i used for adding new datas to existing table i databases. Enable enter new records to tables.
+INSERT INTO -> function i used for adding new datas to existing table i databases. Enable enter new ROW records to tables.
+
+---------------------------------------------
+
+INSERT INTO table_name (column_name1, column_name2, ...)
+VALUES (value_to_insert1, value_to_insert2, ...)
+
+A NULL value automatically adds an ID number in the column in the new row.
+
+** IMPORTANT TIP **
+
+We must set up AUTO_INCREMENTATION i table settings
+
+---------------------------------------------
