@@ -39,6 +39,16 @@ FORMULA ->
 
 UPDATE table_name
 SET column_name1 = 'value to set', column_name2 = 'value to set'
+
+---------------------------------------------
+
+Changing several cells in a column using a condition
+
+
+UPDATE table_name
+SET column_name1 = 'new_value', column_name2 = 'new_value'
+WHERE column_name = 'value_to_replace'
+
 WHERE column_name = row_id;
 
 ---------------------------------------------
