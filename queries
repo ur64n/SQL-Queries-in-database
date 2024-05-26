@@ -15,10 +15,196 @@ Below is the complete set of queries used in project:
 #CASE #CONCAT #ANY #ALL
 
 Example of usage #SUBQUERIES
-Using a #COMMENTARY
+Adding a #COMMENTARY
 
 **INSTRUNCTION**
 
 Download and import database w3schools from repository to your SQL environment and run queries for checkout the results
 
 */
+
+---------------------------------------------
+
+**QUERIES**
+
+---------------------------------------------
+
+SELECT most common query which retrieve us called columns from choosen table
+
+---------------------------------------------
+
+SELECT column name1, column name2, ...
+FROM table name;
+
+---------------------------------------------
+
+Retrieve us a unique records from choosen columns and table
+
+SELECT DISTINCT column name1, column name2, ...
+FROM table name;
+
+---------------------------------------------
+
+SELECT + WHERE(optional) condition that allow us to return records for example >= 20
+
+SELECT column name1, column name2, ...
+FROM table name
+WHERE condition
+
+---------------------------------------------
+
+SELECT WHERE with AND, OR, and NOT Operators
+
+- The AND operator displays a record if all the conditions separated by **AND** are **TRUE**.
+- The OR operator displays a record if any of the conditions separated by **OR** are **TRUE**.
+- The NOT operator displays a record if the condition(s) is/are **NOT** true.
+
+SELECT column_name1, column_name2, ...
+FROM table_name
+WHERE condition1 AND condition2 AND condition3 ...;
+
+---------------------------------------------
+
+SELECT WHERE IS NULL or IS NOT NULL
+
+Used when you want to return columns that are empty or not empty.
+
+
+SELECT column_name1, column_name2, ...
+FROM table_name
+WHERE column_name IS NULL; 
+
+or
+
+WHERE column_name IS NOT NULL;
+
+
+---------------------------------------------
+
+SELECT TOP for SQL Server, SELECT LIMIT for MySQL, FETCH FIRST for Oracle Databases
+
+Returns only a specified number of records, for example the first 10 records.
+
+For SQL Server:
+
+SELECT TOP 10 column_name(s)
+FROM table_name
+WHERE condition;
+
+
+For MySQL:
+
+SELECT column_name(s)
+FROM table_name
+WHERE condition
+LIMIT number;
+
+
+For Oracle:
+
+SELECT column_name(s)
+FROM table_name
+FETCH FIRST number ROWS ONLY;
+
+
+---------------------------------------------
+
+SELECT MIN and MAX
+
+Returns the smallest or largest value of the selected column, fore example the highest salary from the employee salary column where there are 10,000 employees.
+
+
+SELECT MIN(column_name) 
+FROM table_name
+WHERE condition;
+
+or
+
+SELECT MAX(column_name) 
+FROM table_name
+WHERE condition;
+
+
+---------------------------------------------
+
+SELECT COUNT
+
+Counts the number of rows that meet the condition.
+For example the number of rows with a salary higher than X dollars and returns that 13 employees have a salary < 1000
+
+
+SELECT COUNT(column_name)
+FROM table_name
+WHERE condition;
+
+
+---------------------------------------------
+
+**SELECT AVG**
+
+Returns the average value of the columns, and if we add a condition, we can add, e.g., a time range to calculate the average sales value with a condition for a specific customer.
+
+
+SELECT AVG(column_name)
+FROM table_name
+WHERE condition;
+
+---------------------------------------------
+
+SELECT SUM + WHERE
+
+Returns the sum of the selected column.
+
+SELECT SUM(column_name)
+FROM table_name
+WHERE condition;
+
+---------------------------------------------
+
+SELECT WHERE + LIKE
+
+This is a condition within a condition. It returns rows with a main condition and an additional condition where we want, for example, to extract all names ending with or starting with the letter “%a”.
+
+SELECT * or column_name
+FROM table_name
+WHERE condition LIKE ‘%pattern’;
+
+
+If we want to choose the first and last letter, we type `LIKE ‘a%b’`. 
+If we want, for example, the 3rd letter to be 's', we type `LIKE ‘__s%’` where `_` is any ignored letter.
+
+---------------------------------------------
+
+SELECT WHERE + BETWEEN + AND
+
+Selects values from a given range, text, numbers, dates, etc.
+
+SELECT column_name(s)
+FROM table_name
+WHERE column_name BETWEEN value1 AND value2;
+
+---------------------------------------------
+
+SELECT AS
+
+Used to give a table or column a temporary name only in the current code. It does not change the name permanently.
+
+SELECT column_name AS alias_name
+FROM table_name;
+
+---------------------------------------------
+
+SELECT ORDER BY
+
+Used to sort results in ascending or descending order. By default, it sorts in ascending order. To sort results in descending order, use DESC.
+
+
+SELECT column_name(s)
+FROM table_name
+ORDER BY column_name(s) ... ASC; 
+
+or
+
+ORDER BY column_name(s) ... DESC;
+---------------------------------------------
+
