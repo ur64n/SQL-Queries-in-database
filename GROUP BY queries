@@ -1,0 +1,67 @@
+/* 
+
+SQL Queries for w3schools database project
+---------------------------------------------
+Author: Jakub Kaczmarczyk
+
+Date: 26-05-2024
+
+**DESCRIPTION:**
+
+This file contain, type of SQL queries which are using for managing and building a databases.
+Below is the complete set of queries used in project:
+#SELECT #DISTINCT #WHERE #AND #OR #NOT #IS #NULL #TOP #LIMIT #FETCH FIRST #MIN #MAX #COUNT #AVG#SUM #LIKE #BETWEEN 
+#ALIAS #ORDER BY #INSERT INTO #UPDATE #DELETE FROM #HAVING #INNER JOIN #LEFT JOIN #RIGHT JOIN #UNION #COALESCE #CAST
+#CASE #CONCAT #ANY #ALL
+
+Example of usage #SUBQUERIES
+Adding a #COMMENTARY
+
+**INSTRUNCTION**
+
+Download and import database w3schools from repository to your SQL environment and run queries for checkout the results
+
+*/
+
+---------------------------------------------
+
+GROUP BY statement in SQL specifies that the SQL SELECT statement divides the result rows into groups based on their values in one or more columns.
+
+GROUP BY statement is often used with aggregate functions (COUNT(), MAX(), MIN(), SUM(), AVG()) to group the result set according to one or more columns.
+
+---------------------------------------------
+
+Primary formula for group by 
+
+SELECT column name1, column name2 ... 
+FROM table name 
+GROUP BY column name1, column name2 ... 
+
+---------------------------------------------
+
+Formula for z summation of values with grouping and sorting
+
+SELECT column name1, column name2 ... 
+SUM(column name1)
+FROM table name
+GROUP BY column name1, column name2 ... 
+
+---------------------------------------------
+
+Formula for grouping using alias select + count + as + group by
+
+SELECT column name1, column name2 - if you want more grouping criteria
+COUNT(column name) 
+AS alias name
+FROM table name
+GROUP BY column name1, column name2 - if you want to group with more criteria
+
+---------------------------------------------
+
+Formula for grouping using the having condition with aggregation functions
+
+SELECT column name1 . . .
+COUNT(column name)
+FROM table name
+GROUP BY column name1 . . .
+HAVING COUNT(column name) ≥ 2;
