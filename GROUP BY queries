@@ -29,6 +29,10 @@ GROUP BY statement in SQL specifies that the SQL SELECT statement divides the re
 
 GROUP BY statement is often used with aggregate functions (COUNT(), MAX(), MIN(), SUM(), AVG()) to group the result set according to one or more columns.
 
+** TIP **
+
+To use conditions in group by function we must use HAVING instead WHERE. Example in last formula.
+
 ---------------------------------------------
 
 Primary formula for group by 
