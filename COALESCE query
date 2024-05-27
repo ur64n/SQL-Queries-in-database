@@ -1,0 +1,45 @@
+/* 
+
+SQL Queries for w3schools database project
+---------------------------------------------
+Author: Jakub Kaczmarczyk
+
+Date: 26-05-2024
+
+**DESCRIPTION:**
+
+This file contain, type of SQL queries which are using for managing and building a databases.
+Below is the complete set of queries used in project:
+#SELECT #DISTINCT #WHERE #AND #OR #NOT #IS #NULL #TOP #LIMIT #FETCH FIRST #MIN #MAX #COUNT #AVG#SUM #LIKE #BETWEEN 
+#ALIAS #ORDER BY #INSERT INTO #UPDATE #DELETE FROM #HAVING #INNER JOIN #LEFT JOIN #RIGHT JOIN #UNION #COALESCE #CAST
+#CASE #CONCAT #ANY #ALL
+
+Example of usage #SUBQUERIES
+Adding a #COMMENTARY
+
+**INSTRUNCTION**
+
+Download and import database w3schools from repository to your SQL environment and run queries for checkout the results
+
+*/
+
+---------------------------------------------
+
+It extracts from the table the first encountered value in the column that is not null.
+
+** EXPLANATION **
+
+We can search the table, for example, with customer contacts, adding the searched value such as phone number, email, correspondence address, etc.
+searching for a form of contact to the customer, and if it is not zero, it will add it to the new table; 
+it will be a table only with people for whom some contact was added in the row.
+
+---------------------------------------------
+
+Primary example of use coalesce
+
+SELECT first name,
+COALESCE(LastName, "Number missing") 
+AS phone
+FROM 'new employees'
+
+----------------------------------------------
