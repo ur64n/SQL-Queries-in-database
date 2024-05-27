@@ -1,0 +1,39 @@
+/* 
+
+SQL Queries for w3schools database project
+---------------------------------------------
+Author: Jakub Kaczmarczyk
+
+Date: 26-05-2024
+
+**DESCRIPTION:**
+
+This file contain, type of SQL queries which are using for managing and building a databases.
+Below is the complete set of queries used in project:
+#SELECT #DISTINCT #WHERE #AND #OR #NOT #IS #NULL #TOP #LIMIT #FETCH FIRST #MIN #MAX #COUNT #AVG#SUM #LIKE #BETWEEN 
+#ALIAS #ORDER BY #INSERT INTO #UPDATE #DELETE FROM #HAVING #INNER JOIN #LEFT JOIN #RIGHT JOIN #UNION #COALESCE #CAST
+#CASE #CONCAT #ANY #ALL
+
+Example of usage #SUBQUERIES
+Adding a #COMMENTARY
+
+**INSTRUNCTION**
+
+Download and import database w3schools from repository to your SQL environment and run queries for checkout the results
+
+*/
+
+---------------------------------------------
+
+The HAVING clause was added to SQL because the WHERE keyword cannot be used with aggregate functions.
+
+---------------------------------------------
+
+This Formula counts the number of customers per country
+and displays only those countries where the number of customers is greater than 5.
+
+SELECT COUNT(CustomerID), Country
+FROM Customers
+GROUP BY Country
+HAVING COUNT(CustomerID) > 5;
+
