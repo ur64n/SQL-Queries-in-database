@@ -1,0 +1,52 @@
+/* 
+
+SQL Queries for w3schools database project
+---------------------------------------------
+Author: Jakub Kaczmarczyk
+
+Date: 26-05-2024
+
+**DESCRIPTION:**
+
+This file contain, type of SQL queries which are using for managing and building a databases.
+Below is the complete set of queries used in project:
+#SELECT #DISTINCT #WHERE #AND #OR #NOT #IS #NULL #TOP #LIMIT #FETCH FIRST #MIN #MAX #COUNT #AVG#SUM #LIKE #BETWEEN 
+#ALIAS #ORDER BY #INSERT INTO #UPDATE #DELETE FROM #HAVING #INNER JOIN #LEFT JOIN #RIGHT JOIN #UNION #COALESCE #CAST
+#CASE #CONCAT #ANY #ALL
+
+Example of usage #SUBQUERIES
+Adding a #COMMENTARY
+
+**INSTRUNCTION**
+
+Download and import database w3schools from repository to your SQL environment and run queries for checkout the results
+
+*/
+
+---------------------------------------------
+
+Subqueries execute internal queries, which filtering, comparing and providing data for external main query.
+It allow provide queries, which check our condition and return in answer all values agreed with our condition in query.
+
+---------------------------------------------
+
+Example of subquery
+
+SELECT column1, column2.... 
+FROM table
+WHERE the selected column <,> or ≤
+Now we add a subquery →
+(SELECT column 
+FROM table 
+WHERE = 7);
+
+In result we get all prices from product table where price from product table is bigger than this which value is product id 7, that is over than 30.
+
+Practise example
+
+SELECT *
+FROM products
+WHERE Price > 
+(SELECT price FROM product WHERE ProductID = 7);
+
+---------------------------------------------
