@@ -1,0 +1,56 @@
+/* 
+
+SQL Queries for w3schools database project
+---------------------------------------------
+Author: Jakub Kaczmarczyk
+
+Date: 26-05-2024
+
+**DESCRIPTION:**
+
+This file contain, type of SQL queries which are using for managing and building a databases.
+Below is the complete set of queries used in project:
+#SELECT #DISTINCT #WHERE #AND #OR #NOT #IS #NULL #TOP #LIMIT #FETCH FIRST #MIN #MAX #COUNT #AVG#SUM #LIKE #BETWEEN 
+#ALIAS #ORDER BY #INSERT INTO #UPDATE #DELETE FROM #HAVING #INNER JOIN #LEFT JOIN #RIGHT JOIN #UNION #COALESCE #CAST
+#CASE #CONCAT #ANY #ALL
+
+Example of usage #SUBQUERIES
+Adding a #COMMENTARY
+
+**INSTRUNCTION**
+
+Download and import database w3schools from repository to your SQL environment and run queries for checkout the results
+
+*/
+
+---------------------------------------------
+
+The LEFT JOIN keyword returns all records from the left table from the written function in the code.
+The right join from the right. The function itself returns records that do not have a joined relationship.
+It works on tables where there is no relationship.
+
+---------------------------------------------
+
+Primary formula for left and right join
+
+SELECT column name (s)
+FROM right table name
+LEFT JOIN left table name
+ON right table name.column name = left table name.column name;
+
+RIGHT JOIN works on the same pattern just replace the code with RIGHT JOIN
+
+---------------------------------------------
+
+Example LEFT JOIN - Will link records from a table where no relationship has been established. 
+That is, we may have a customer who has never ordered any goods, but is registered in our database and has no OrderID assigned.
+SQL will display him in our new statement, but without an assigned OrderID.
+We will simply get the username but without an assigned order number.
+
+SELECT orders.OrderID, customers.CustomerName
+FROM customers
+LEFT JOIN orders
+ON orders.CustomerID = customers.CustomerID
+ORDER BY orders.OrderID;
+
+---------------------------------------------
