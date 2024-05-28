@@ -1,38 +1,18 @@
 /* 
 
-SQL Queries for w3schools database project
----------------------------------------------
-Author: Jakub Kaczmarczyk
+CAST 
 
-Date: 26-05-2024
-
-**DESCRIPTION:**
-
-This file contain, type of SQL queries which are using for managing and building a databases.
-Below is the complete set of queries used in project:
-#SELECT #DISTINCT #WHERE #AND #OR #NOT #IS #NULL #TOP #LIMIT #FETCH FIRST #MIN #MAX #COUNT #AVG#SUM #LIKE #BETWEEN 
-#ALIAS #ORDER BY #INSERT INTO #UPDATE #DELETE FROM #HAVING #INNER JOIN #LEFT JOIN #RIGHT JOIN #UNION #COALESCE #CAST
-#CASE #CONCAT #ANY #ALL
-
-Example of usage #SUBQUERIES
-Adding a #COMMENTARY
-
-**INSTRUNCTION**
-
-Download and import database w3schools from repository to your SQL environment and run queries for checkout the results
+It allows transforming any value from type X to Y. So we can change, for example, from date to datetime.
 
 */
 
 ---------------------------------------------
 
-It allows transforming any value from type X to Y. So we can change, for example, from date to datetime.
-
----------------------------------------------
-
-Example + formula
+PRIMARY FORMULA 
 
   SELECT name of the basic column,
   CAST(name of the column to edit AS the value to which we want to change)
   AS name of the column in which we want the result
   FROM name of the table from which we perform the operation
+
 ---------------------------------------------
