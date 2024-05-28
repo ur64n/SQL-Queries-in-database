@@ -1,35 +1,10 @@
 /* 
 
-SQL Queries for w3schools database project
----------------------------------------------
-Author: Jakub Kaczmarczyk
+SELECT 
 
-Date: 26-05-2024
-
-**DESCRIPTION:**
-
-This file contain, type of SQL queries which are using for managing and building a databases.
-Below is the complete set of queries used in project:
-#SELECT #DISTINCT #WHERE #AND #OR #NOT #IS #NULL #TOP #LIMIT #FETCH FIRST #MIN #MAX #COUNT #AVG#SUM #LIKE #BETWEEN 
-#ALIAS #ORDER BY #INSERT INTO #UPDATE #DELETE FROM #HAVING #INNER JOIN #LEFT JOIN #RIGHT JOIN #UNION #COALESCE #CAST
-#CASE #CONCAT #ANY #ALL
-
-Example of usage #SUBQUERIES
-Adding a #COMMENTARY
-
-**INSTRUNCTION**
-
-Download and import database w3schools from repository to your SQL environment and run queries for checkout the results
+most common query which retrieve us called columns from choosen table
 
 */
-
----------------------------------------------
-
-**QUERIES**
-
----------------------------------------------
-
-SELECT most common query which retrieve us called columns from choosen table
 
 ---------------------------------------------
 
