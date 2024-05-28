@@ -1,6 +1,6 @@
 /*
 
-**CASE**
+CASE 
 
 The CASE statement in SQL lets you add conditions to your queries,
 allowing to return different results based on whether certain conditions are met.
@@ -10,7 +10,7 @@ It's like doing "if-else" in your code but directly in the database.
 
 ---------------------------------------------
 
-**Primary formula**
+PRIMARY FORMULA
 
 SELECT column1 name, column2 name, columns that will be displayed when run
 CASE 
@@ -22,7 +22,7 @@ FROM table name;
 
 ---------------------------------------------
 
-# Example on date
+EXAMPLE ON DATE
 
 SELECT OrderID, OrderDate,
 CASE
